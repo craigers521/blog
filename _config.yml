@@ -28,7 +28,8 @@ url: "https://craigers521.github.io" # the base hostname & protocol for your sit
 github_username:  craigers521
 
 # Build settings
-theme: minima
+#theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
 
