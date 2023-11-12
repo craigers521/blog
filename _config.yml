@@ -13,16 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: Craig's Blog
+subtitle: attempting to opensource my life
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I'm gonna try to maybe start documenting some projects for once in my life, 
+  if you are reading this then I succeeded. 
 baseurl: "/blog"
 url: "https://craigers521.github.io"
-twitter_username: username
-github_username: username
+github_username: craigers521
 minimal_mistakes_skin: dirt
 search: true
 
@@ -60,22 +58,19 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Craig Egan"
+  avatar : "/assets/images/bitmoji_bio.png"
+  bio    : "Adventures in technology, attempting to opensource my life"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/craigers521"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      url: "https://gitlab.com/craigerstix"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/craig-egan/"
 
 footer:
   links:
@@ -96,9 +91,10 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments: true
+      show_date: true
+      #author_profile: true
+      #read_time: true
+      #comments: true
       share: true
       related: true
   # _pages
