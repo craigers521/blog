@@ -6,6 +6,12 @@ categories:
 tags:
   - Jekyll
   - update
+header:
+  teaser: /assets/images/bitmoji_bio.png
+  overlay_image: /assets/images/bitmoji_bio.png
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+excerpt: " "
 ---
 
 You'll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
@@ -21,6 +27,10 @@ end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 ```
+
+![bitmoji]({{ site.url }}{{ site.baseurl }}/assets/images/bitmoji_bio.png){: .post-image}
+<!-- {: .thumbnail-container} -->
+
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
