@@ -57,6 +57,10 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+analytics:
+  provider: google-gtag
+  google:
+    tracking_id: G-93G3XX4FQJ
 author:
   name   : "Craig Egan"
   avatar : "/assets/images/bitmoji_bio.png"
