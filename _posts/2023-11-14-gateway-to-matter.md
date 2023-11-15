@@ -11,7 +11,7 @@ My two main pain points with commodity "Smart Home" products:
 - app sprawl
 - internet latency/dependency
 
-Every single vendor has its own app that you need to use for onboarding that is going to do something wonky with bluetooth or try to setup a local wifi which is always a pain, then you have to join those things to wifi and they typically only support 2.4Ghz and my spectrum is just clogged with chatty junk.  Then you want to integrate it into you home ecosystem and whether its goolgle, alexa, or whatever now that app is making API calls back and forth out to through the internet just to turn the lights on right next to it.  
+Every single vendor has its own app that you need to use for onboarding that is going to do something wonky with bluetooth or try to setup a local wifi which is always a pain, then you have to join those things to wifi and they typically only support 2.4Ghz and my spectrum is just clogged with chatty junk.  Then you want to integrate it into you home ecosystem and whether its goolgle, alexa, or whatever now that app is making API calls back and forth out to through the internet just to turn the lights on right next to it.  I've already had a couple of random little "smart stuff" vendors go belly up and now i got brick because they forgot to pay the AWS lorawan bill.  Or worse yet my girlfriend buys some remote something for the cats and its not working because i'm firewalling china and guess where they are sending their data to?  
 
 Now i know zigbee+home assistant has already solved a lot of those problems, but the research I've done on matter and thread got me excited about the new standards and piqued my interest enough to want to dip my toes in the water.  
 

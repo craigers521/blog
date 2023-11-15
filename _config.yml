@@ -18,8 +18,8 @@ title: Craig's Blog
 description: >- # this means to ignore newlines until "baseurl:"
   I'm gonna try to maybe start documenting some projects for once in my life, 
   if you are reading this then I succeeded. 
-baseurl: "/blog"
-url: "https://craigers521.github.io"
+baseurl: "/"
+url: "https://blog.craigers.rocks"
 github_username: craigers521
 minimal_mistakes_skin: dirt
 search: true
