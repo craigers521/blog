@@ -4,7 +4,8 @@ header:
   teaser: /assets/images/HA-yellow.jpg
 excerpt: The device that brings it all together, home assistant yellow
 #classes: wide
-tags: [homeassistant, matter]
+description: deploy matter controller and thread border router on home assistant yellow and why i chose that platform
+tags: [homeassistant, matter, thread]
 ---
 
 My two main pain points with commodity "Smart Home" products: 
