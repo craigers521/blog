@@ -23,7 +23,7 @@ url: "https://blog.craigers.rocks"
 github_username: craigers521
 minimal_mistakes_skin: dirt
 search: true
-
+repository: craigers521/blog
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -62,6 +62,7 @@ analytics:
   provider: google-gtag
   google:
     tracking_id: G-93G3XX4FQJ
+
 author:
   name   : "Craig Egan"
   avatar : "/assets/images/bitmoji_bio.png"
@@ -89,6 +90,14 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/craig-egan/"
 
+comments:
+  provider: "giscus"
+  giscus:
+    repo_id: R_kgDOKp0fRA
+    category_name: Annoucncements
+    category_id: DIC_kwDOKp0fRM4CbIkD
+    discussion_term: title
+
 defaults:
   # _posts
   - scope:
@@ -99,7 +108,7 @@ defaults:
       show_date: true
       author_profile: true
       #read_time: true
-      #comments: true
+      comments: true
       share: true
       related: true
   # _pages
