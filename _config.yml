@@ -97,6 +97,8 @@ comments:
     category_name: "blog_comments"
     category_id: "DIC_kwDOKp0fRM4CbIuZ"
     discussion_term: "og:title"
+    theme: "noborder_light"
+    position: "top"
 
 defaults:
   # _posts
