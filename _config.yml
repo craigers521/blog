@@ -94,9 +94,9 @@ comments:
   provider: "giscus"
   giscus:
     repo_id: R_kgDOKp0fRA
-    category_name: Annoucncements
+    category_name: "blog_comments"
     category_id: DIC_kwDOKp0fRM4CbIkD
-    discussion_term: title
+    discussion_term: "og:title"
 
 defaults:
   # _posts
