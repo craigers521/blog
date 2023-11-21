@@ -23,7 +23,7 @@ url: "https://blog.craigers.rocks"
 github_username: craigers521
 minimal_mistakes_skin: dirt
 search: true
-repository: craigers521/blog
+repository: "craigers521/blog"
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -93,9 +93,9 @@ footer:
 comments:
   provider: "giscus"
   giscus:
-    repo_id: R_kgDOKp0fRA
+    repo_id: "R_kgDOKp0fRA"
     category_name: "blog_comments"
-    category_id: DIC_kwDOKp0fRM4CbIkD
+    category_id: "DIC_kwDOKp0fRM4CbIuZ"
     discussion_term: "og:title"
 
 defaults:
