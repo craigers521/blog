@@ -20,7 +20,7 @@ gallery:
     title: "add to home assistant"
 ---
 ### Setting up the HA yellow
-The first thing we want to is go to **Settings -> System -> Hardware** and configure to enable multiprotocol support.  This is going to use the built-in zigbee radio to also use `thread` since they operate on the same wireless frequencies.  Again `thread` is pretty much zigbee + IPV6.  With that enabled you should see a new add-on called "Silicon Labs Multiprotocol" in your add-ons.  
+The first thing to do is go to **Settings -> System -> Hardware** and configure to enable multiprotocol support.  This is going to use the built-in zigbee radio to also use `thread` since they operate on the same wireless frequencies.  Again `thread` is pretty much zigbee + IPV6.  With that enabled you should see a new add-on called "Silicon Labs Multiprotocol" in your add-ons.  
 
 ![enable-multiprotocol]({{ site.url }}{{ site.baseurl }}/assets/images/post3/enable_multiprotocol.png)  
 
