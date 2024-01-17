@@ -6,7 +6,7 @@ header:
 description: Migrating from paramiko to ansible-pylibssh I was getting import errors, this is the solution
 tags: [python, ansible, ssh]
 ---
-![ansible logo]({{ site.url }}{{ site.baseurl }}/assets/images/post6/ansible.png)  
+![ansible logo]({{ site.url }}{{ site.baseurl }}/assets/images/post6/ansible.png){: .post-image}
 
 #### The Problem
 
