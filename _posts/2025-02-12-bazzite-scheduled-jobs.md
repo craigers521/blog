@@ -18,7 +18,7 @@ I decided the best course of action was to just write a shell script to kill the
 
 So problem one with bazzite is there is no cron, and its a real pain trying to layer in things to the system that arent containerized.  We do however have systemd, and systemd timers are a really cool mechanism that gives you even more flexibility than cron ever did.  This isn't meant to be a systemd timers tutorial though so do some research on that topic.  
 
-The next problem is that we end with some permissions issues trying to place services in /etc/systemd but during this journey I also learned there is a per-user instance systemd, which is really nice for dealing with these kind of permissions schisms between root and your user.  
+The next problem is that we end up with some permissions issues trying to place services in /etc/systemd, since those services need to be owned by root... but my scripts and app processes are owned by my user. During this journey I also learned there is a per-user instance of systemd, which is really nice for dealing with these kind of permissions schisms between root and your user.  
 
 The final problem I ran into was some strange behavior with the flatpak for firefox.  If I ran a `pkill firefox` or a `killall firefox` from terminal, it worked every time.  If I tried to wrap this in a script it would never work.  So I needed to go after the flatpak directly.   
 
@@ -66,12 +66,12 @@ The OnCalendar key is highly configurable to all kinds of options much like cron
 
 ```
 *                     *-*-*                       *:*:*
-#Day Of the week           Year-Month-Date            Hour:Minute:Second
+#Day Of the week      Year-Month-Date             Hour:Minute:Second
 ```
 
 Here I've skipped day of the week because I want it to run everyday and not on a particular day or date.  It runs at 6AM local time every day. 
 
-Next comes the service file. This file is named `mysleepy.service`.  The filenames need to match for the service and timer files. 
+Next comes the service file. This file is named `mysleepy.service`.  I think the filenames need to match for the service and timer files, but I do specify the service name directly in the timer unit... so not sure if the filename is arbitrary or not. 
 
 ```ini
 [Unit]
