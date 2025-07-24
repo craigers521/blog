@@ -21,5 +21,11 @@ resize2fs /dev/mapper/pve-root
 ```
 A reload of disks in the GUI and the new space was showing up.  I still see the old now empty LVM store in the GUI but i think that can be solved by removing the config from /etc/pve/storage.cfg
 
+Obviously do your own research to make sure your system was mapped the same as mine using handy show commands like: 
+- `lsblk`
+- 'df -h`
+- `pvs`, `vgs`, and `lvs`
+
+
 ![proxmox local store]({{ site.url }}{{ site.baseurl }}/assets/images/20250723/proxmox_local.png) 
 
