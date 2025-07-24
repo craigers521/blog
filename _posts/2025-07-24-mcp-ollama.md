@@ -43,13 +43,12 @@ if __name__ == "__main__":
     mcp.run()
 ```
 
-- run mcpo: `mcpo --port 8000 -- python my_mycp_server.py`
-	- test mcpo is successfully translating your mcp server tools to openapi: [http://localhost:8000/docs#/](http://localhost:8000/docs#/)  
-  
+- run mcpo: `mcpo --port 8000 -- python my_mycp_server.py`  
 
 **Note:** you do need to run fastMCP server also, mcpo will start it for you.
 {: .notice--warning}  
 
+- test mcpo is successfully translating your mcp server tools to openapi: [http://localhost:8000/docs#/](http://localhost:8000/docs#/)  
 - add mcpo api server to open-webui:
 	- user -> settings -> tools -> +  
 
