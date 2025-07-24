@@ -7,7 +7,7 @@ tags: [ai, mcp]
 ---
 
 #### Local setup
-- install ollama: https://ollama.com/download
+- install ollama: [https://ollama.com/download](https://ollama.com/download)
 - pull down a model: `ollama pull llama3.2:3b`
 - create new python env
 	- install open-webui (requires python <3.13.0 >=3.11)
@@ -16,6 +16,7 @@ tags: [ai, mcp]
 	- can use pip or uv, i did get conflicts on a couple libraries but seems to be working, not using any auth tho
 - start open-webui: `open-webui serve`
 	- open-webui should automatically connect to local ollama instance
+  - test open-webui is working by going to [http://localhost:8080](http://localhost:8080)
 - write fastmcp server python code: 
 
 ```python
@@ -43,7 +44,8 @@ if __name__ == "__main__":
 ```
 
 - run mcpo: `mcpo --port 8000 -- python my_mycp_server.py`
-	- test mcpo is successfully translating your mcp server tools to openapi: http://localhost:8000/docs#/
+	- test mcpo is successfully translating your mcp server tools to openapi: [http://localhost:8000/docs#/](http://localhost:8000/docs#/)
+**Note:** you do need to run fastMCP server also, mcpo will start it for you. {: .notice--warning}
 - add mcpo api server to open-webui:
 	- user -> settings -> tools -> +  
 
