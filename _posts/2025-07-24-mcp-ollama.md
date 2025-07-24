@@ -45,6 +45,7 @@ if __name__ == "__main__":
 
 - run mcpo: `mcpo --port 8000 -- python my_mycp_server.py`
 	- test mcpo is successfully translating your mcp server tools to openapi: [http://localhost:8000/docs#/](http://localhost:8000/docs#/)  
+  
 
 **Note:** you do need to run fastMCP server also, mcpo will start it for you.
 {: .notice--warning}  
