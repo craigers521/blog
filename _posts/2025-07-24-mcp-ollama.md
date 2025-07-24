@@ -47,12 +47,12 @@ if __name__ == "__main__":
 - add mcpo api server to open-webui:
 	- user -> settings -> tools -> +  
 
-![open-webui tool connection]({{ site.url }}{{ site.baseurl }}/assets/images/20250724/tools.png){: .post-image}  
+![open-webui tool connection]({{ site.url }}{{ site.baseurl }}/assets/images/20250724/tools.png) 
 
 - should get a connection successful pop
 - llama should interpret your inputs to use tools, API output from tool will be linked in message. 
 
-![ollama chat]({{ site.url }}{{ site.baseurl }}/assets/images/20250724/chat.png){: .post-image}  
+![ollama chat]({{ site.url }}{{ site.baseurl }}/assets/images/20250724/chat.png) 
 
 
 #### Reference Docs:
