@@ -45,11 +45,15 @@ if __name__ == "__main__":
 - run mcpo: `mcpo --port 8000 -- python my_mycp_server.py`
 	- test mcpo is successfully translating your mcp server tools to openapi: http://localhost:8000/docs#/
 - add mcpo api server to open-webui:
-	- user -> settings -> tools -> +
-![open-webui tool connection]({{ site.url }}{{ site.baseurl }}/assets/images/20250724/tools.png){: .post-image}
+	- user -> settings -> tools -> +  
+
+![open-webui tool connection]({{ site.url }}{{ site.baseurl }}/assets/images/20250724/tools.png){: .post-image}  
+
 - should get a connection successful pop
-- llama should interpret your inputs to use tools, API output from tool will be linked in message
-![ollama chat]({{ site.url }}{{ site.baseurl }}/assets/images/20250724/chat.png){: .post-image}
+- llama should interpret your inputs to use tools, API output from tool will be linked in message. 
+
+![ollama chat]({{ site.url }}{{ site.baseurl }}/assets/images/20250724/chat.png){: .post-image}  
+
 
 #### Reference Docs:
 - FastMCP: https://gofastmcp.com/getting-started/welcome
