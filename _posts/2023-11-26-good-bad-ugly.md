@@ -2,7 +2,7 @@
 title: Matter and Thread - The Good, The Bad and The Ugly
 header:
   teaser: /assets/images/post5/cowboybulb.png
-  excerpt: My experience so far converting to matter and thread 
+excerpt: My experience so far converting to matter and thread 
 description: My experience deploying matter and thread devices from tapo, nanoleaf, eve and others into home assistant yellow
 tags: [homeassistant, matter, thread]
 ---

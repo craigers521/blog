@@ -1,7 +1,7 @@
 ---
 title: Connecting a local MCP server to local LLM
 header:
-  excerpt: fastmcp and ollama local testing
+excerpt: fastmcp and ollama local testing
 description: How to use Fastmcp, ollama and MCPO for local AI testing
 tags: [ai, mcp]
 ---

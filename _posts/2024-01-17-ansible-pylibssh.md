@@ -2,7 +2,7 @@
 title: Ansible and Libssh on Apple Silicon
 header:
   teaser: /assets/images/post6/ansible.png
-  excerpt: Getting ssh connections to work with ansible on apple silicon macbooks
+excerpt: Getting ssh connections to work with ansible on apple silicon macbooks
 description: Migrating from paramiko to ansible-pylibssh I was getting import errors, this is the solution
 tags: [python, ansible, ssh]
 ---

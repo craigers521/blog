@@ -1,7 +1,7 @@
 ---
 title: Creating Scheduled Jobs on an Immutable OS
 header:
-  excerpt: using systemd timers on bazzite
+excerpt: using systemd timers on bazzite
 description: creating scheduled jobs on immutable os like bazzite or silverblue without cron using systemd timers
 tags: [linux, bazzite]
 ---
