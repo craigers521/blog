@@ -4,7 +4,7 @@ header:
   teaser: /assets/images/20250723/proxmox_local.png
 excerpt: resize local storage parition to make more room for iso's and imports
 description: How to resize local data store in proxmox 
-tags: [ai, mcp]
+tags: [proxmox, storage]
 ---
 
 #### The Problem
